@@ -13,4 +13,8 @@ require_once dirname(__FILE__) . '/helper.php';
 
 $recruitment = mod_wow_recruitment::_($params);
 
+if (empty($recruitment)) {
+    return;
+}
+
 require JModuleHelper::getLayoutPath($module->module, $params->get('layout', 'default'));
