@@ -25,6 +25,19 @@
     padding-left: 45px;
 }
 
+.mod_wow_recruitment .class a {
+    background: url('./images/promote.png') !important;
+    background-size: 16px 16px !important;
+    display: inline-blocK;
+    color: transparent;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -9px;
+    top: -9px;
+}
+
 .mod_wow_recruitment .name {
     text-shadow: 1px 1px #000;
 }
@@ -57,6 +70,10 @@
     background-image: url('images/priorities.png');
     top: -8px;
     right: -8px;
+}
+
+.mod_wow_recruitment .prio.no {
+    background: none;
 }
 
 .mod_wow_recruitment .prio.low {
