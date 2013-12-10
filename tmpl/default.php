@@ -9,7 +9,9 @@
 
 defined('_JEXEC') or die;
 
-JHtml::_('behavior.tooltip');
+if ($params->get('tooltips', 1)) {
+    JHtml::_('behavior.tooltip');
+}
 
 JFactory::getDocument()->addStyleSheet(JUri::base(true) . '/modules/' . $module->module . '/tmpl/default.css');
 ?>

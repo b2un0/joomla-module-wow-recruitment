@@ -28,6 +28,10 @@
         <fields name="params" addfieldpath="/modules/mod_wow_recruitment/fields/">
             <fieldset name="basic">
                 <field name="link" type="text" default="" filter="url" label="MOD_WOW_RECRUITMENT_LINK_LABEL" description="MOD_WOW_RECRUITMENT_LINK_DESC" />
+                <field name="tooltips" type="radio" class="btn-group" default="1" label="MOD_WOW_RECRUITMENT_TOOLTIPS_LABEL">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
             </fieldset>
             <fieldset name="advanced">
                 <field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
