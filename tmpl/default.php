@@ -20,7 +20,7 @@ JFactory::getDocument()->addStyleSheet(JUri::base(true) . '/modules/' . $module-
         <div class="class <?php echo $class; ?>">
             <span class="icon name"><?php echo JText::_('MOD_WOW_RECRUITMENT_CLASS_' . strtoupper($class)); ?></span>
             <?php if ($params->get('link')) : ?>
-                <?php echo JHtml::_('link', $params->get('link'), JText::_('MOD_WOW_RECRUITMENT_PROMOTE'), array('title' => JText::_('MOD_WOW_RECRUITMENT_PROMOTE'))); ?>
+                <?php echo JHtml::_('link', $params->get('link'), JText::_('MOD_WOW_RECRUITMENT_APPLY'), array('title' => JText::_('MOD_WOW_RECRUITMENT_APPLY'))); ?>
             <?php endif; ?>
             <div class="specs">
                 <?php foreach ($specs as $spec => $role) : ?>
