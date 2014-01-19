@@ -21,6 +21,7 @@
 
 .mod_wow_recruitment .summary {
     line-height: 0em;
+    text-align: left;
 }
 
 .mod_wow_recruitment .name {
@@ -28,6 +29,7 @@
     display: inline-block;
     vertical-align: top;
     padding-top: 15px;
+    padding-left: 3px;
 }
 
 .mod_wow_recruitment .icon {
