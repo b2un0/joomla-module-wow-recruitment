@@ -21,6 +21,7 @@
 
 .mod_wow_recruitment .note .icon {
     background-image: url('images/default/apply.png');
+    white-space: nowrap;
 }
 
 .mod_wow_recruitment .note .icon:hover {

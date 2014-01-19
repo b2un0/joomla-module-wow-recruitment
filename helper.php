@@ -37,7 +37,7 @@ abstract class mod_wow_recruitment
         ),
         'monk' => array(
             'brewmaster' => 'tank',
-            'Mistweaver' => 'heal',
+            'mistweaver' => 'heal',
             'windwalker' => 'dd'
         ),
         'paladin' => array(
