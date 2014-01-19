@@ -27,8 +27,10 @@
     <config>
         <fields name="params" addfieldpath="/modules/mod_wow_recruitment/fields/">
             <fieldset name="basic">
+                <field name="note" type="textarea" rows="8" cols="12" default="" label="MOD_WOW_RECRUITMENT_NOTE_LABEL" description="MOD_WOW_RECRUITMENT_NOTE_DESC" />
+                <field name="button" type="text" default="" label="MOD_WOW_RECRUITMENT_BUTTON_LABEL" description="MOD_WOW_RECRUITMENT_BUTTON_DESC" />
                 <field name="link" type="text" default="" filter="url" label="MOD_WOW_RECRUITMENT_LINK_LABEL" description="MOD_WOW_RECRUITMENT_LINK_DESC" />
-                <field name="tooltips" type="radio" class="btn-group" default="1" label="MOD_WOW_RECRUITMENT_TOOLTIPS_LABEL">
+                <field name="roles" type="radio" class="btn-group" default="1" label="MOD_WOW_RECRUITMENT_ROLES_LABEL" description="MOD_WOW_RECRUITMENT_ROLES_DESC">
                     <option value="1">JYES</option>
                     <option value="0">JNO</option>
                 </field>
@@ -41,57 +43,68 @@
                 <field name="deathknight_blood" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DEATHKNIGHT_BLOOD" />
                 <field name="deathknight_frost" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DEATHKNIGHT_FROST" />
                 <field name="deathknight_unholy" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DEATHKNIGHT_UNHOLY" />
+                <field name="deathknight_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="druid" label="MOD_WOW_RECRUITMENT_CLASS_DRUID">
                 <field name="druid_balance" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DRUID_BALANCE" />
                 <field name="druid_restoration" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DRUID_RESTORATION" />
                 <field name="druid_feral" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DRUID_FERAL" />
                 <field name="druid_guardian" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DRUID_GUARDIAN" />
+                <field name="druid_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="hunter" label="MOD_WOW_RECRUITMENT_CLASS_HUNTER">
                 <field name="hunter_beastmaster" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_HUNTER_BEASTMASTER" />
                 <field name="hunter_marksmanship" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_HUNTER_MARKSMANSHIP" />
                 <field name="hunter_survival" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_HUNTER_SURVIVAL" />
+                <field name="hunter_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="mage" label="MOD_WOW_RECRUITMENT_CLASS_MAGE">
                 <field name="mage_arcane" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_MAGE_ARCANE" />
                 <field name="mage_fire" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_MAGE_FIRE" />
                 <field name="mage_frost" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_MAGE_FROST" />
+                <field name="mage_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="monk" label="MOD_WOW_RECRUITMENT_CLASS_MONK">
                 <field name="monk_brewmaster" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_MONK_BREWMASTER" />
-                <field name="monk_Mistweaver" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_MONK_MISTWEAVER" />
+                <field name="monk_mistweaver" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_MONK_MISTWEAVER" />
                 <field name="monk_windwalker" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_MONK_WINDWALKER" />
+                <field name="monk_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="paladin" label="MOD_WOW_RECRUITMENT_CLASS_PALADIN">
                 <field name="paladin_holy" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_PALADIN_HOLY" />
                 <field name="paladin_protection" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_PALADIN_PROTECTION" />
                 <field name="paladin_retribution" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_PALADIN_RETRIBUTION" />
+                <field name="paladin_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="priest" label="MOD_WOW_RECRUITMENT_CLASS_PRIEST">
                 <field name="priest_discipline" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_PRIEST_DISCIPLINE" />
                 <field name="priest_holy" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_PRIEST_HOLY" />
                 <field name="priest_shadow" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_PRIEST_SHADOW" />
+                <field name="priest_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="rogue" label="MOD_WOW_RECRUITMENT_CLASS_ROGUE">
                 <field name="rogue_assassination" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_ROGUE_ASSASSINATION" />
                 <field name="rogue_combat" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_ROGUE_COMBAT" />
                 <field name="rogue_subtlety" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_ROGUE_SUBTLETY" />
+                <field name="rogue_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="shaman" label="MOD_WOW_RECRUITMENT_CLASS_SHAMAN">
                 <field name="shaman_elemental" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_SHAMAN_ELEMENTAL" />
                 <field name="shaman_enhancement" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_SHAMAN_ENHANCEMENT" />
                 <field name="shaman_restoration" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_SHAMAN_RESTORATION" />
+                <field name="shaman_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="warlock" label="MOD_WOW_RECRUITMENT_CLASS_WARLOCK">
                 <field name="warlock_affliction" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARLOCK_AFFLICTION" />
                 <field name="warlock_demonology" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARLOCK_DEMONOLOGY" />
                 <field name="warlock_destruction" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARLOCK_DESTRUCTION" />
+                <field name="warlock_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
             <fieldset name="warrior" label="MOD_WOW_RECRUITMENT_CLASS_WARRIOR">
                 <field name="warrior_protection" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARRIOR_PROTECTION" />
                 <field name="warrior_fury" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARRIOR_FURY" />
                 <field name="warrior_arms" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARRIOR_ARMS" />
+                <field name="warrior_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
         </fields>
     </config>
