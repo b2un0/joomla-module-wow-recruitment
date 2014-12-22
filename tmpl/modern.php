@@ -3,7 +3,7 @@
 /**
  * @author     Branko Wilhelm <branko.wilhelm@gmail.com>
  * @link       http://www.z-index.net
- * @copyright  (c) 2013 - 2014 Branko Wilhelm
+ * @copyright  (c) 2013 - 2015 Branko Wilhelm
  * @license    GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
@@ -15,7 +15,7 @@ if (version_compare(JVERSION, 3, '>=')) {
     JHtml::_('behavior.tooltip', '.mod_wow_recruitment .tip');
 }
 
-JFactory::getDocument()->addStyleSheet(JUri::base(true) . '/modules/' . $module->module . '/tmpl/modern.css');
+JFactory::getDocument()->addStyleSheet('media/' . $module->module . '/css/modern.css');
 ?>
 <div class="mod_wow_recruitment">
     <?php if ($params->get('note')): ?>

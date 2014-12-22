@@ -3,7 +3,7 @@
     <name>MOD_WOW_RECRUITMENT</name>
     <author>Branko Wilhelm</author>
     <creationDate>Dez 2013</creationDate>
-    <copyright>(C) 2013 - 2014 Branko Wilhelm</copyright>
+    <copyright>(c) 2013 - 2015 Branko Wilhelm</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>branko.wilhelm@gmail.com</authorEmail>
     <authorUrl>www.z-index.net</authorUrl>
@@ -24,6 +24,10 @@
     <updateservers>
         <server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
     </updateservers>
+    <media folder="media" destination="mod_wow_recruitment">
+        <folder>css</folder>
+        <folder>images</folder>
+    </media>
     <config>
         <fields name="params" addfieldpath="/modules/mod_wow_recruitment/fields/">
             <fieldset name="basic">

@@ -20,7 +20,7 @@
 }
 
 .mod_wow_recruitment .note .icon {
-    background-image: url('images/default/apply.png');
+    background-image: url('../images/default/apply.png');
     white-space: nowrap;
 }
 
@@ -68,7 +68,7 @@
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url('images/priorities.png');
+    background-image: url('../images/priorities.png');
     top: -8px;
     right: -8px;
 }
@@ -95,7 +95,7 @@
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url('images/roles.png');
+    background-image: url('../images/roles.png');
     bottom: -8px;
     right: -8px;
 }
@@ -117,19 +117,19 @@
 }
 
 .mod_wow_recruitment .deathknight .icon {
-    background-image: url('./images/default/deathknight.png');
+    background-image: url('../images/default/deathknight.png');
 }
 
 .mod_wow_recruitment .deathknight .blood {
-    background-image: url('./images/default/deathknight_blood.png');
+    background-image: url('../images/default/deathknight_blood.png');
 }
 
 .mod_wow_recruitment .deathknight .frost {
-    background-image: url('./images/default/deathknight_frost.png');
+    background-image: url('../images/default/deathknight_frost.png');
 }
 
 .mod_wow_recruitment .deathknight .unholy {
-    background-image: url('./images/default/deathknight_unholy.png');
+    background-image: url('../images/default/deathknight_unholy.png');
 }
 
 .mod_wow_recruitment .druid .name {
@@ -137,23 +137,23 @@
 }
 
 .mod_wow_recruitment .druid .icon {
-    background-image: url('./images/default/druid.png');
+    background-image: url('../images/default/druid.png');
 }
 
 .mod_wow_recruitment .druid .balance {
-    background-image: url('./images/default/druid_balance.png');
+    background-image: url('../images/default/druid_balance.png');
 }
 
 .mod_wow_recruitment .druid .restoration {
-    background-image: url('./images/default/druid_restoration.png');
+    background-image: url('../images/default/druid_restoration.png');
 }
 
 .mod_wow_recruitment .druid .feral {
-    background-image: url('./images/default/druid_feral.png');
+    background-image: url('../images/default/druid_feral.png');
 }
 
 .mod_wow_recruitment .druid .guardian {
-    background-image: url('./images/default/druid_guardian.png');
+    background-image: url('../images/default/druid_guardian.png');
 }
 
 .mod_wow_recruitment .hunter .name {
@@ -161,19 +161,19 @@
 }
 
 .mod_wow_recruitment .hunter .icon {
-    background-image: url('./images/default/hunter.png');
+    background-image: url('../images/default/hunter.png');
 }
 
 .mod_wow_recruitment .hunter .beastmaster {
-    background-image: url('./images/default/hunter_beastmaster.png');
+    background-image: url('../images/default/hunter_beastmaster.png');
 }
 
 .mod_wow_recruitment .hunter .marksmanship {
-    background-image: url('./images/default/hunter_marksmanship.png');
+    background-image: url('../images/default/hunter_marksmanship.png');
 }
 
 .mod_wow_recruitment .hunter .survival {
-    background-image: url('./images/default/hunter_survival.png');
+    background-image: url('../images/default/hunter_survival.png');
 }
 
 .mod_wow_recruitment .mage .name {
@@ -181,19 +181,19 @@
 }
 
 .mod_wow_recruitment .mage .icon {
-    background-image: url('./images/default/mage.png');
+    background-image: url('../images/default/mage.png');
 }
 
 .mod_wow_recruitment .mage .arcane {
-    background-image: url('./images/default/mage_arcane.png');
+    background-image: url('../images/default/mage_arcane.png');
 }
 
 .mod_wow_recruitment .mage .fire {
-    background-image: url('./images/default/mage_fire.png');
+    background-image: url('../images/default/mage_fire.png');
 }
 
 .mod_wow_recruitment .mage .frost {
-    background-image: url('./images/default/mage_frost.png');
+    background-image: url('../images/default/mage_frost.png');
 }
 
 .mod_wow_recruitment .monk .name {
@@ -201,19 +201,19 @@
 }
 
 .mod_wow_recruitment .monk .icon {
-    background-image: url('./images/default/monk.png');
+    background-image: url('../images/default/monk.png');
 }
 
 .mod_wow_recruitment .monk .brewmaster {
-    background-image: url('./images/default/monk_brewmaster.png');
+    background-image: url('../images/default/monk_brewmaster.png');
 }
 
 .mod_wow_recruitment .monk .mistweaver {
-    background-image: url('./images/default/monk_mistweaver.png');
+    background-image: url('../images/default/monk_mistweaver.png');
 }
 
 .mod_wow_recruitment .monk .windwalker {
-    background-image: url('./images/default/monk_windwalker.png');
+    background-image: url('../images/default/monk_windwalker.png');
 }
 
 .mod_wow_recruitment .paladin .name {
@@ -221,19 +221,19 @@
 }
 
 .mod_wow_recruitment .paladin .icon {
-    background-image: url('./images/default/paladin.png');
+    background-image: url('../images/default/paladin.png');
 }
 
 .mod_wow_recruitment .paladin .holy {
-    background-image: url('./images/default/paladin_holy.png');
+    background-image: url('../images/default/paladin_holy.png');
 }
 
 .mod_wow_recruitment .paladin .protection {
-    background-image: url('./images/default/paladin_protection.png');
+    background-image: url('../images/default/paladin_protection.png');
 }
 
 .mod_wow_recruitment .paladin .retribution {
-    background-image: url('./images/default/paladin_retribution.png');
+    background-image: url('../images/default/paladin_retribution.png');
 }
 
 .mod_wow_recruitment .priest .name {
@@ -241,19 +241,19 @@
 }
 
 .mod_wow_recruitment .priest .icon {
-    background-image: url('./images/default/priest.png');
+    background-image: url('../images/default/priest.png');
 }
 
 .mod_wow_recruitment .priest .discipline {
-    background-image: url('./images/default/priest_discipline.png');
+    background-image: url('../images/default/priest_discipline.png');
 }
 
 .mod_wow_recruitment .priest .holy {
-    background-image: url('./images/default/priest_holy.png');
+    background-image: url('../images/default/priest_holy.png');
 }
 
 .mod_wow_recruitment .priest .shadow {
-    background-image: url('./images/default/priest_shadow.png');
+    background-image: url('../images/default/priest_shadow.png');
 }
 
 .mod_wow_recruitment .rogue .name {
@@ -261,19 +261,19 @@
 }
 
 .mod_wow_recruitment .rogue .icon {
-    background-image: url('./images/default/rogue.png');
+    background-image: url('../images/default/rogue.png');
 }
 
 .mod_wow_recruitment .rogue .assassination {
-    background-image: url('./images/default/rogue_assassination.png');
+    background-image: url('../images/default/rogue_assassination.png');
 }
 
 .mod_wow_recruitment .rogue .combat {
-    background-image: url('./images/default/rogue_combat.png');
+    background-image: url('../images/default/rogue_combat.png');
 }
 
 .mod_wow_recruitment .rogue .subtlety {
-    background-image: url('./images/default/rogue_subtlety.png');
+    background-image: url('../images/default/rogue_subtlety.png');
 }
 
 .mod_wow_recruitment .shaman .name {
@@ -281,19 +281,19 @@
 }
 
 .mod_wow_recruitment .shaman .icon {
-    background-image: url('./images/default/shaman.png');
+    background-image: url('../images/default/shaman.png');
 }
 
 .mod_wow_recruitment .shaman .elemental {
-    background-image: url('./images/default/shaman_elemental.png');
+    background-image: url('../images/default/shaman_elemental.png');
 }
 
 .mod_wow_recruitment .shaman .enhancement {
-    background-image: url('./images/default/shaman_enhancement.png');
+    background-image: url('../images/default/shaman_enhancement.png');
 }
 
 .mod_wow_recruitment .shaman .restoration {
-    background-image: url('./images/default/shaman_restoration.png');
+    background-image: url('../images/default/shaman_restoration.png');
 }
 
 .mod_wow_recruitment .warlock .name {
@@ -301,19 +301,19 @@
 }
 
 .mod_wow_recruitment .warlock .icon {
-    background-image: url('./images/default/warlock.png');
+    background-image: url('../images/default/warlock.png');
 }
 
 .mod_wow_recruitment .warlock .affliction {
-    background-image: url('./images/default/warlock_affliction.png');
+    background-image: url('../images/default/warlock_affliction.png');
 }
 
 .mod_wow_recruitment .warlock .demonology {
-    background-image: url('./images/default/warlock_demonology.png');
+    background-image: url('../images/default/warlock_demonology.png');
 }
 
 .mod_wow_recruitment .warlock .destruction {
-    background-image: url('./images/default/warlock_destruction.png');
+    background-image: url('../images/default/warlock_destruction.png');
 }
 
 .mod_wow_recruitment .warrior .name {
@@ -321,17 +321,17 @@
 }
 
 .mod_wow_recruitment .warrior .icon {
-    background-image: url('./images/default/warrior.png');
+    background-image: url('../images/default/warrior.png');
 }
 
 .mod_wow_recruitment .warrior .protection {
-    background-image: url('./images/default/warrior_protection.png');
+    background-image: url('../images/default/warrior_protection.png');
 }
 
 .mod_wow_recruitment .warrior .fury {
-    background-image: url('./images/default/warrior_fury.png');
+    background-image: url('../images/default/warrior_fury.png');
 }
 
 .mod_wow_recruitment .warrior .arms {
-    background-image: url('./images/default/warrior_arms.png');
+    background-image: url('../images/default/warrior_arms.png');
 }
