@@ -41,7 +41,7 @@ abstract class ModWowRecruitmentHelper
             'windwalker' => 'dd'
         ),
         'paladin' => array(
-            'holy' => false,
+            'holy' => 'heal',
             'protection' => 'tank',
             'retribution' => 'dd'
         ),
