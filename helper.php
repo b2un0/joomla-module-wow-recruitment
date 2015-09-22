@@ -72,10 +72,11 @@ abstract class ModWowRecruitmentHelper
         )
     );
 
-    public static function getData(JRegistry &$params)
+    public static function getData(JRegistry $params)
     {
         $hide = array();
-        foreach (self::$classes as $class => $specs) {
+        $classes = self::$classes;
+        foreach ($classes as $class => $specs) {
             $hide[$class] = array();
             foreach ($specs as $spec => $role) {
                 if ($params->get($class . '_' . $spec) == 'hide') {
@@ -83,10 +84,10 @@ abstract class ModWowRecruitmentHelper
                 }
             }
             if (count($hide[$class]) == count($specs)) {
-                unset(self::$classes[$class]);
+                unset($classes[$class]);
             }
         }
 
-        return self::$classes;
+        return $classes;
     }
 }
