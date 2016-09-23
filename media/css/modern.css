@@ -334,3 +334,19 @@
 .mod_wow_recruitment .warrior .arms {
     background-image: url('../images/modern/warrior_arms.png');
 }
+
+.mod_wow_recruitment .demonhunter .name {
+    color: #A330C9;
+}
+
+.mod_wow_recruitment .demonhunter .icon {
+    background-image: url('../images/modern/demonhunter.png');
+}
+
+.mod_wow_recruitment .demonhunter .havoc {
+    background-image: url('../images/modern/demonhunter_havoc.png');
+}
+
+.mod_wow_recruitment .demonhunter .vengeance {
+    background-image: url('../images/modern/demonhunter_vengeance.png');
+}

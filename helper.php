@@ -69,6 +69,10 @@ abstract class ModWowRecruitmentHelper
             'protection' => 'tank',
             'fury' => 'dd',
             'arms' => 'dd'
+        ),
+        'demonhunter' => array(
+            'havoc' => 'dd',
+            'vengeance' => 'tank'
         )
     );
 

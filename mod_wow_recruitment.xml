@@ -3,7 +3,7 @@
     <name>MOD_WOW_RECRUITMENT</name>
     <author>Branko Wilhelm</author>
     <creationDate>Dez 2013</creationDate>
-    <copyright>(c) 2013 - 2015 Branko Wilhelm</copyright>
+    <copyright>(c) 2013 - 2016 Branko Wilhelm</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>branko.wilhelm@gmail.com</authorEmail>
     <authorUrl>www.z-index.net</authorUrl>
@@ -109,6 +109,11 @@
                 <field name="warrior_fury" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARRIOR_FURY" />
                 <field name="warrior_arms" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_WARRIOR_ARMS" />
                 <field name="warrior_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
+            </fieldset>
+            <fieldset name="demonhunter" label="MOD_WOW_RECRUITMENT_CLASS_DEMONHUNTER">
+                <field name="demonhunter_havoc" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DEMONHUNTER_HAVOC" />
+                <field name="demonhunter_vengeance" default="none" type="recruitment" class="btn-group" label="MOD_WOW_RECRUITMENT_CLASS_DEMONHUNTER_VENGEANCE" />
+                <field name="demonhunter_text" default="" type="text" label="MOD_WOW_RECRUITMENT_CLASS_TEXT" />
             </fieldset>
         </fields>
     </config>
