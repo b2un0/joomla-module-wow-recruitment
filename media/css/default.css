@@ -41,6 +41,7 @@
 
 .mod_wow_recruitment .name {
     text-shadow: 1px 1px #000;
+    white-space: nowrap;
 }
 
 .mod_wow_recruitment .spec {
