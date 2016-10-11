@@ -28,7 +28,7 @@ class JFormFieldRecruitment extends JFormFieldRadio
     {
         $options = array();
         foreach ($this->options as $option) {
-            $options[] = JHtml::_('select.option', $option, 'MOD_WOW_RECRUITMENT_PRIO_' . strtoupper($option));
+            $options[] = JHtml::_('select.option', $option, JText::_('MOD_WOW_RECRUITMENT_PRIO_' . strtoupper($option)));
         }
 
         return array_merge(parent::getOptions(), $options);
